@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Thumbnail__c</fullName>
+    <externalId>false</externalId>
+    <formula>IMAGE(&#39;/servlet/servlet.FileDownload?file=&#39; + Thumbnail_ID__c, Thumbnail_ID__c, 20, 20)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Thumbnail</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>
