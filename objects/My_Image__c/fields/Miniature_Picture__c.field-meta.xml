@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Miniature_Picture__c</fullName>
+    <description>thumbnail URL for original pic</description>
+    <externalId>false</externalId>
+    <label>Miniature Picture</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Url</type>
+</CustomField>
